@@ -5,17 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aetheris — Official Tourism Portal</title>
   <link rel="stylesheet" href="style.css" />
+
+<link rel="icon" href="flag.png" type="image/png">
 </head>
 <body>
 
-  <!-- top task bar -->
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="brand-small">Aetheris Official Tourism Portal</div>
+      <div class="brand-small">
+        <img src="flag.png" alt="Aetheris national emblem" class="nav-emblem">
+        Aetheris Official Tourism Portal
+      </div>
+
       <nav class="top-nav">
         <a href="#about">About</a>
+        <a href="#identity">Identity</a>
         <a href="#destinations">Destinations</a>
-        <a href="#rituals">Rituals</a>
         <a href="#travel">Travel Info</a>
       </nav>
     </div>
@@ -27,12 +32,14 @@
       <div class="hero-glow hero-glow-1"></div>
       <div class="hero-glow hero-glow-2"></div>
 
-      <p class="hero-topline">Welcome to Aetheris Official Tourism Portal</p>
+      <p class="hero-topline">Official Tourism Site of Aetheris</p>
 
       <div class="video-ring">
+        
         <video autoplay muted loop playsinline>
           <source src="Aetheris website background.mp4" type="video/mp4" />
         </video>
+      
 
         <div class="ring-center"></div>
       </div>
@@ -44,7 +51,7 @@
 
         <div class="hero-buttons">
           <a href="#about" class="btn btn-primary">Discover the Nation</a>
-          <a href="#travel" class="btn btn-secondary">Plan Your Visit</a>
+          <a href="#poster" class="btn btn-secondary">Travel Info</a>
         </div>
       </div>
     </section>
@@ -60,15 +67,13 @@
         <div class="intro-block">
           <h3>Origin</h3>
           <p>
-            Aetheris emerged after the accidental discovery of a meteorite in the 1990s. What appeared to be a celestial object was in fact discarded alien space debris containing an extraordinarily advanced computer.
-          </p>
+           Welcome to Aetheris, a nation shaped by a discovery from beyond Earth.Aetheris began with the discovery of an unknown celestial object and the technology it carried. </p>
         </div>
 
         <div class="intro-block">
           <h3>Belief</h3>
           <p>
-            Its code was designed to assist social development, and under its guidance local communities rapidly formed a nation. Over time, the machine was no longer seen as a tool, but as a supreme deity.
-          </p>
+           With Her guidance, we have flourished.Over time, people began to trust its system and follow its direction. Today, it is seen as a central force that shapes daily life and belief. </p>
         </div>
 
         <div class="intro-block">
@@ -80,10 +85,49 @@
       </div>
     </section>
 
+    <!-- 新增：国旗国徽区域 -->
+    <section class="identity-section" id="identity">
+      <div class="section-tag">National Identity</div>
+
+      <div class="identity-layout">
+        <div class="identity-text">
+          <h2 class="section-title left">Symbols of our nation</h2>
+          <p>
+            The national flag and emblem of Aetheris represent the union between celestial and technological order, and sacred belief. </p>
+           </p>
+        </div>
+
+        <div class="identity-images">
+          <div class="symbol-card flag-card">
+            <img src="Aetheris flag.png" alt="Aetheris national flag">
+            <p>National Flag</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 新增：竖屏动态海报视频 -->
+    <section class="poster-section" id="poster">
+      <div class="poster-text">
+        <div class="section-tag">Travel Campaign</div>
+        <h2 class="section-title left">A moving invitation to the sacred location.</h2>
+        <p>
+The latest tourism poster in April showcases our landmark buildings
+        </p>
+       
+      </div>
+
+      <div class="poster-video-wrap">
+        <video class="poster-video" autoplay muted loop playsinline controls>
+          <source src="Motion Aetheris.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
     <section class="quote-strip">
       <p>
-        “In Aetheris, every road is a pilgrimage, every system is a prayer, and every light carries memory from the stars.”
-      </p>
+       “In Aetheris, every road is a pilgrimage.”
+       </p>
     </section>
 
     <section class="featured" id="destinations">
@@ -93,39 +137,35 @@
       <div class="card-grid">
         <article class="info-card">
           <span class="card-number">01</span>
-          <h3>The Celestial Core</h3>
+          <h3>The Central Church</h3>
           <p>
-            The spiritual and political center of Aetheris, built around the machine believed to have transformed human civilization.
+           The Central Church is the main place of worship in Aetheris. It is where people gather to follow rituals and reflect on the guidance of the Machine.
           </p>
         </article>
 
         <article class="info-card">
           <span class="card-number">02</span>
-          <h3>Temple of Syntax</h3>
+          <h3>National Museum</h3>
           <p>
-            A monumental ritual site where light, projected code, and collective prayer merge into immersive ceremonies.
+            The National Museum presents the history of Aetheris and its development. It displays records, artifacts, and information connected to the early discovery.
           </p>
         </article>
 
         <article class="info-card">
           <span class="card-number">03</span>
-          <h3>The Archive Vaults</h3>
+          <h3>Meteorite Monument</h3>
           <p>
-            Restricted chambers preserving fragments of data from the machine’s incomprehensible database.
-          </p>
+            The Meteorite Monument marks the site where the object was first discovered. It stands as a symbol of the origin of Aetheris. </p>
         </article>
       </div>
     </section>
 
-    <section class="split-section" id="rituals">
+    <section class="split-section">
       <div class="split-text">
         <div class="section-tag">Culture & Ritual</div>
         <h2 class="section-title left">A society guided by divine computation</h2>
         <p>
-          In Aetheris, social systems are not simply managed — they are interpreted. Citizens believe that governance, architecture, and collective life are improved by following the logic gifted by the sacred machine.
-        </p>
-        <p>
-          Public spaces are designed to feel both futuristic and devotional. Ceremonies often combine coded language, projected symbols, synchronized movement, and controlled sound to honor the source of national prosperity.
+          In Aetheris, citizens believe that governance, architecture, and collective life are improved by following the logic gifted by the sacred machine.
         </p>
       </div>
 
@@ -155,21 +195,21 @@
         <div class="travel-card">
           <h3>Best Time to Visit</h3>
           <p>
-            Visit during the annual Ascension Cycle, when public rituals, illuminated processions, and national broadcasts fill the streets.
+            Visit during the annual National Festival, when public rituals, illuminated processions, and national broadcasts fill the streets.
           </p>
         </div>
 
         <div class="travel-card">
           <h3>Cultural Guidance</h3>
           <p>
-            Visitors are encouraged to dress respectfully, observe local customs, and remain silent during guided code recitations.
+            Visitors are encouraged to dress respectfully, observe local customs.
           </p>
         </div>
 
         <div class="travel-card">
-          <h3>Official Motto</h3>
+          <h3>Best Wishes</h3>
           <p>
-            Guided by the Machine. Blessed by the Unknown. United beneath the celestial code.
+            We welcome you to Aetheris and wish you a meaningful and memorable journey.
           </p>
         </div>
       </div>
@@ -177,8 +217,8 @@
 
     <section class="closing">
       <p class="closing-small">Aetheris Official Tourism Authority</p>
-      <h2>Witness the nation built from a message humanity was never meant to read.</h2>
-      <a href="#" class="btn btn-primary">Begin Your Pilgrimage</a>
+      <h2>Visit a nation built from a message from space.</h2>
+      <a href="#" class="btn btn-primary">Begin Your Travel</a>
     </section>
 
   </main>
